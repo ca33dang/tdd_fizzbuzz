@@ -1,10 +1,14 @@
 def fizzbuzz()
 	fizzarr = []
-	var = 0
+	var = 1
 
-	while var < 100 do
-		var += 1
+	while var <= 100 do
+		if var % 3 == 0
+			fizzarr << "mined"
+		else
 		fizzarr << var
+		end
+		var += 1
 	end
 	fizzarr
 end

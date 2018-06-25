@@ -15,9 +15,9 @@ class TestTddFizzBuzz < Minitest::Test
     	assert_equal(100, fizzbuzz().length)
     end
     
-    # def test_assert_that_first_position_is_1
-    #  	assert_equal(1, fizzbuzz().first)
-    # end
+    def test_assert_that_first_position_is_1
+     	assert_equal(1, fizzbuzz().first)
+    end
 
     # def test_assert_that_third_position_mined
     # 	assert_equal(2, fizzbuzz())

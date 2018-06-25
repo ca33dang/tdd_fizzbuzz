@@ -5,6 +5,8 @@ def fizzbuzz()
 	while var <= 100 do
 		if var % 3 == 0
 			fizzarr << "mined"
+		elsif var % 5 == 0
+			fizzarr << "minds"
 		else
 		fizzarr << var
 		end

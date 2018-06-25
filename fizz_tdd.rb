@@ -3,7 +3,7 @@ def fizzbuzz()
 	var = 1
 
 	while var <= 100 do	
-		if var % 15 == 0
+		if var % 5 == 0 && var % 3 == 0
 			fizzarr << "mined minds"
 		elsif var % 3 == 0
 			fizzarr << "mined"

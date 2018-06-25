@@ -31,7 +31,11 @@ class TestTddFizzBuzz < Minitest::Test
     	assert_equal("code", fizzbuzz()[6])
      end
 
-    def test_assert_that_fifteenth_is_mindsmined
+    def test_assert_that_fifteenth_is_mindsmineds
     	assert_equal("mined minds", fizzbuzz()[14])
+    end
+
+    def test_assert_that_thirty_is_mindsmineds
+    	assert_equal("mined minds", fizzbuzz()[29])
     end
 end

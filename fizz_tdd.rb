@@ -7,6 +7,8 @@ def fizzbuzz()
 			fizzarr << "mined"
 		elsif var % 5 == 0
 			fizzarr << "minds"
+		elsif var % 7 == 0
+			fizzarr << "code"
 		else
 		fizzarr << var
 		end
